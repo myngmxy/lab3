@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    double n=2,m=69,sum;
+    double n=6,m=19,sum;
     while(n<=m){    
         sum+=1/n;
         n=n+1;
