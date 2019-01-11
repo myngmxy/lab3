@@ -2,13 +2,12 @@
 using namespace std;
 
 int main(){
-    int i=0,n=6,m=19;
-    double sum;
-    
-    while(i<m){
-        sum=sum+1/n;
+    int i,n=2,m=69;
+    double sum=0;
+    i=n;
+    while(i<=m){
+        sum=sum+1/i;
         i=i+1;
-        n=n+i;
     }
 
     cout << sum;
